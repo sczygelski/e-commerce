@@ -7,4 +7,6 @@ router.use('/categories', categoryRoutes);
 router.use('/products', productRoutes);
 router.use('/tags', tagRoutes);
 
+require('dotenv').config()
+
 module.exports = router;
